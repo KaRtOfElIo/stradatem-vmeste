@@ -1,14 +1,4 @@
-def print_num(num):
+def print_number(num):
     print(num, end='')
-
-# Вызов функции в нужном порядке
-print_num(8)
-print_num(8)
-print_num(0)
-print_num(0)
-print_num(5)
-print_num(5)
-print_num(3)
-print_num(5)
-print_num(3)
-print_num(5)
+for digit in "88005553535":
+    print_number(digit)
